@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador de Texto</title>
+    <link rel="shortcut icon" href="assets/" type="image/x-icon">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+<body>
+    <header>
+        <img src="assets/Frame 6.png" alt="Logo da Alura" class="logo">
+    </header>
+    <main>
+        <div class="txtcrip">
+            <textarea id="txt" placeholder="Digite seu texto" class="txtarea"></textarea>
+            <p id="aviso"><p><i class="bi bi-exclamation-diamond-fill"></i> Apenas letras minúsculas e sem acento!</p>
+            <div class="botaocodificar">
+                <button id="codificador" class="btn">Codificar</button>
+                <button id="decodificador" class="btn">Decodificar</button>
+            </div>
+        </div>
+
+        <div class="txtfinal">
+            <textarea id="res" class="txtresultado" placeholder="Texto final"></textarea>
+            <div class="botoes-copy">
+                <button id="copiar" class="btn">Copiar</button>
+                <button class= "btn" id="limpar">Limpar campos</button>
+             </div>
+        </div>
+        
+    </main>
+
+    <footer class="rodape">
+        <p>Desenvolvido por Elysa, 2024</p>
+        <div class="contato">
+          <a href="https://www.linkedin.com/in/efrancyne"><i class="bi bi-linkedin"></i></a>
+          <a href="https://github.com/efrancyne"><i class="bi bi-github"></i></a>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
